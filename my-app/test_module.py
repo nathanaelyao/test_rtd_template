@@ -146,3 +146,168 @@ class Solution:
         # sum(from 1 to n-1)
         res.append(-prefix_sum)
         return res
+
+    def example_func(a, b):
+        """
+        Returns the sum of two numbers.
+
+        Parameters
+        ----------
+        a : int
+            First number
+        b : float
+            Second number
+
+        Returns
+        -------
+        sum : int
+            The sum of the inputs.
+
+        Attributes
+        ----------
+        Some attribute : str
+            This is unnecessary and should not be included.
+        """
+        return a + b
+    def example_func2(a, b):
+        """
+        Adds two values.
+
+        Parameters
+        ----------
+        a : string
+            The first value.
+        b
+            The second value.
+        
+        Returns
+        -------
+        result : str
+            The result of the addition.
+        """
+        return str(a + b)
+
+
+
+    def example_func3(a, b):
+        """Performs addition.
+        
+        Parameters
+        ----------
+        a : int
+            The first number.
+        b : int
+            The second number.
+        Returns
+        -------
+        int : sum of a and b"""
+        return a + b
+    def example_func4(a, b):
+        """
+        **Adds two numbers**.
+        
+        Parameters
+        ----------
+        **a** : int
+            First number
+        **b** : float
+            Second number
+        
+        Returns
+        -------
+        **result** : int
+            The result of adding **a** and **b**.
+        
+        See Also
+        --------
+        [another_func](https://example.com)
+        """
+        return a + b
+    def example_func5(a, b):
+        """
+        Adds two numbers.
+        
+        Parameters
+        ----------
+        a : int
+            First number
+        b : int
+            Second number
+        
+        Returns
+        -------
+        result : int
+            Sum of a and b.
+        Example:
+            >>> example_func(3, 5)
+            8
+        """
+        return a + b
+    def example_func6(a, b):
+        """
+        Adds two numbers.
+        Parameters
+        ----------
+        a : int
+        First number.
+        b : int
+            Second number.
+        
+        Returns
+        -------
+        int : Sum of a and b.
+        """
+        return a + b
+    def example_func7(a, b):
+        """
+        Adds two numbers.
+
+        Parameters
+        ----------
+        a : int
+            First number.
+        b : int
+            Second number.
+
+        Returns
+        -------
+        result
+            The sum, but it may also be a float.
+        """
+        return a + b
+    def example_func8(a, b):
+        """
+        Adds two numbers.
+        This is a function that computes
+        the sum of two numbers.
+        
+        Parameters
+        ----------
+        a : int
+            First number.
+        b : int
+            Second number.
+        
+        Returns
+        -------
+        result : int
+            Sum of a and b.
+        """
+        return a + b
+    def example_func9(a, b):
+        """
+        Adds two numbers.
+
+        Parameters
+        ----------
+        a : int
+            First number.
+        b : int
+            Second number.
+
+        Returns
+        -------
+        'result' : int
+            Sum of a and b.
+        """
+        return a + b
