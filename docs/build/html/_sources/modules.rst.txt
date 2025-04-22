@@ -1,7 +1,7 @@
-my-app
-======
+test_module
+===========
 
-.. toctree::
-   :maxdepth: 4
-
-   test
+.. automodule:: test_module
+   :members:
+   :undoc-members:
+   :show-inheritance:
