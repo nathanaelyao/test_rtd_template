@@ -5,7 +5,7 @@ class Solution:
     A class to generate an array of n unique integers that sum up to 0.
     """
     
-    def sumZero(self, n: int) -> List[int]:
+    def sumZero(self, n: int):
         """
         Returns a list of n integers such that their sum is zero.
         
@@ -16,7 +16,6 @@ class Solution:
         
         Returns
         -------
-        :
             A list of n integers where the sum of the integers is zero.
         """
         
