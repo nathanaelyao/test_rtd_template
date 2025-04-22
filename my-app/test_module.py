@@ -30,7 +30,7 @@ class Solution:
         res.append(-prefix_sum)
         return res
 
-    def sumZero2(self, n: int) -> List[int]:
+    def sumZero2(self, n: int)
         """
         Returns a list of n integers such that their sum is zero.
         
