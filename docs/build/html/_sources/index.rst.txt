@@ -15,3 +15,10 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+test module
+===========
+
+.. automodule:: test_module
+   :members:
+   :show-inheritance:
+   :undoc-members:
