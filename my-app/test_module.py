@@ -217,10 +217,6 @@ class Solution:
         -------
         **result** : int
             The result of adding **a** and **b**.
-        
-        See Also
-        --------
-        [another_func](https://example.com)
         """
         return a + b
     def example_func5(a, b):
