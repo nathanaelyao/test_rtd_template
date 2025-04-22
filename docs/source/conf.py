@@ -17,7 +17,11 @@ release = '1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',  # Required if you're not using numpydoc directly
+    'numpydoc',             # Required for proper numpydoc formatting
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
