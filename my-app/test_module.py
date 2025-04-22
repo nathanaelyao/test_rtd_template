@@ -16,6 +16,7 @@ class Solution:
         
         Returns
         -------
+        :
             A list of n integers where the sum of the integers is zero.
         """
         
@@ -290,20 +291,4 @@ class Solution:
             Sum of a and b.
         """
         return a + b
-    def example_func9(a, b):
-        """
-        Adds two numbers.
 
-        Parameters
-        ----------
-        a : int
-            First number.
-        b : int
-            Second number.
-
-        Returns
-        -------
-        'result' : int
-            Sum of a and b.
-        """
-        return a + b
