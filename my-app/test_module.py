@@ -152,7 +152,7 @@ class Solution:
         res.append(-prefix_sum)
         return res
 
-    def add_numbers(a, b):
+    def add_numbers(self, a, b):
         """
         Returns the sum of two numbers.
 
@@ -175,7 +175,7 @@ class Solution:
         """
         return a + b
 
-    def add_numbers2(a, b):
+    def add_numbers2(self, a, b):
         """Performs addition.
         
         Parameters
@@ -189,7 +189,7 @@ class Solution:
         int : sum of a and b"""
         return a + b
 
-    def add_numbers3(a, b):
+    def add_numbers3(self, a, b):
         """
         Adds two numbers.
         
@@ -209,7 +209,7 @@ class Solution:
             8
         """
         return a + b
-    def add_numbers4(a, b):
+    def add_numbers4(self, a, b):
         """
         Adds two numbers.
         Parameters
@@ -224,7 +224,7 @@ class Solution:
         int : Sum of a and b.
         """
         return a + b
-    def add_numbers5(a, b):
+    def add_numbers5(self, a, b):
         """
         Adds two numbers.
 
