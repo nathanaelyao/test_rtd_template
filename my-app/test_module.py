@@ -16,7 +16,7 @@ class Solution:
         
         Returns
         -------
-         
+        : 
             A list of n integers where the sum of the integers is zero.
         """
         
