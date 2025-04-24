@@ -238,7 +238,7 @@ class Solution:
         Returns
         -------
         result
-            The sum, but it may also be a float.
+            Sum of a and b.
         """
         return a + b
 
