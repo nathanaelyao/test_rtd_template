@@ -101,29 +101,8 @@ class Solution:
         # sum(from 1 to n-1)
         res.append(-prefix_sum)
         return res
+
     def sumZero5(self, n: int) -> List[int]:
-        """
-        Returns a list of n integers such that their sum is zero.
-        
-        Parameters
-        ----------
-        The number of integers to be returned.
-        
-        Returns
-        -------
-            - A list of n integers where the sum of the integers is zero.
-        """
-        
-        prefix_sum = 0
-        res = []
-        # 1, n-1
-        for i in range(1, n):
-            res.append(i)
-            prefix_sum = prefix_sum + i
-        # sum(from 1 to n-1)
-        res.append(-prefix_sum)
-        return res
-    def sumZero6(self, n: int) -> List[int]:
         """
         Returns a list of n integers such that their sum is zero.
         
@@ -148,7 +127,7 @@ class Solution:
         res.append(-prefix_sum)
         return res
 
-    def example_func(a, b):
+    def add_numbers(a, b):
         """
         Returns the sum of two numbers.
 
@@ -170,27 +149,8 @@ class Solution:
             This is unnecessary and should not be included.
         """
         return a + b
-    def example_func2(a, b):
-        """
-        Adds two values.
 
-        Parameters
-        ----------
-        a : string
-            The first value.
-        b
-            The second value.
-        
-        Returns
-        -------
-        result : str
-            The result of the addition.
-        """
-        return str(a + b)
-
-
-
-    def example_func3(a, b):
+    def add_numbers2(a, b):
         """Performs addition.
         
         Parameters
@@ -203,24 +163,8 @@ class Solution:
         -------
         int : sum of a and b"""
         return a + b
-    def example_func4(a, b):
-        """
-        **Adds two numbers**.
-        
-        Parameters
-        ----------
-        **a** : int
-            First number
-        **b** : float
-            Second number
-        
-        Returns
-        -------
-        **result** : int
-            The result of adding **a** and **b**.
-        """
-        return a + b
-    def example_func5(a, b):
+
+    def add_numbers3(a, b):
         """
         Adds two numbers.
         
@@ -240,7 +184,7 @@ class Solution:
             8
         """
         return a + b
-    def example_func6(a, b):
+    def add_numbers4(a, b):
         """
         Adds two numbers.
         Parameters
@@ -255,7 +199,7 @@ class Solution:
         int : Sum of a and b.
         """
         return a + b
-    def example_func7(a, b):
+    def add_numbers5(a, b):
         """
         Adds two numbers.
 
@@ -272,23 +216,5 @@ class Solution:
             The sum, but it may also be a float.
         """
         return a + b
-    def example_func8(a, b):
-        """
-        Adds two numbers.
-        This is a function that computes
-        the sum of two numbers.
-        
-        Parameters
-        ----------
-        a : int
-            First number.
-        b : int
-            Second number.
-        
-        Returns
-        -------
-        result : int
-            Sum of a and b.
-        """
-        return a + b
+
 
