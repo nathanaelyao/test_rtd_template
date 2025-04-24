@@ -16,7 +16,8 @@ class Solution:
         
         Returns
         -------
-        - A list of n integers where the sum of the integers is zero.
+         
+            A list of n integers where the sum of the integers is zero.
         """
         
         prefix_sum = 0
