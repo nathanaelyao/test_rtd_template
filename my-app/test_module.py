@@ -241,5 +241,22 @@ class Solution:
             Sum of a and b.
         """
         return a + b
+    def add_numbers6(self, a, b):
+        """
+        See if this appears with a new branch
+
+        Parameters
+        ----------
+        a : int
+            First number.
+        b : int
+            Second number.
+
+        Returns
+        -------
+        result
+            Sum of a and b.
+        """
+        return a + b
 
 
