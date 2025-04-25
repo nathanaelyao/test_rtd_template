@@ -161,17 +161,12 @@ class Solution:
         a : int
             First number
         b : float
-            Second number
+        Second number
 
         Returns
         -------
         sum : int
             The sum of the inputs.
-
-        Attributes
-        ----------
-        Some attribute : str
-            This is unnecessary and should not be included.
         """
         return a + b
 
