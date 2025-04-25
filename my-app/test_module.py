@@ -152,7 +152,7 @@ class Solution:
         res.append(-prefix_sum)
         return res
 
-    def add_numbers(self, a, b):
+    def add_numbers_0spaces(self, a, b):
         """
         Returns the sum of two numbers.
 
@@ -169,7 +169,74 @@ class Solution:
             The sum of the inputs.
         """
         return a + b
+    def add_numbers_1space(self, a, b):
+        """
+        Returns the sum of two numbers.
 
+        Parameters
+        ----------
+        a : int
+            First number
+        b : float
+         Second number
+
+        Returns
+        -------
+        sum : int
+            The sum of the inputs.
+        """
+        return a + b
+    def add_numbers_2spaces(self, a, b):
+        """
+        Returns the sum of two numbers.
+
+        Parameters
+        ----------
+        a : int
+            First number
+        b : float
+          Second number
+
+        Returns
+        -------
+        sum : int
+            The sum of the inputs.
+        """
+        return a + b
+    def add_numbers_3spaces(self, a, b):
+        """
+        Returns the sum of two numbers.
+
+        Parameters
+        ----------
+        a : int
+            First number
+        b : float
+           Second number
+
+        Returns
+        -------
+        sum : int
+            The sum of the inputs.
+        """
+        return a + b
+    def add_numbers_4spaces(self, a, b):
+        """
+        Returns the sum of two numbers.
+
+        Parameters
+        ----------
+        a : int
+            First number
+        b : float
+            Second number
+
+        Returns
+        -------
+        sum : int
+            The sum of the inputs.
+        """
+        return a + b
     def add_numbers2(self, a, b):
         """Performs addition.
         
