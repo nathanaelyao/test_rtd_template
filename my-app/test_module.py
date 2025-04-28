@@ -152,7 +152,7 @@ class Solution:
         res.append(-prefix_sum)
         return res
 
-    def add_numbers_0spaces(self, a, b):
+    def add_numbers(self, a, b):
         """
         Returns the sum of two numbers.
 
