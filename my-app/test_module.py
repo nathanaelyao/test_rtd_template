@@ -161,20 +161,82 @@ class Solution:
         a : int
             First number
         b : float
+        Second number
+
+        Returns
+        -------
+        sum : int
+            The sum of the inputs.
+        """
+        return a + b
+    def add_numbers_1space(self, a, b):
+        """
+        Returns the sum of two numbers.
+
+        Parameters
+        ----------
+        a : int
+            First number
+        b : float
+         Second number
+
+        Returns
+        -------
+        sum : int
+            The sum of the inputs.
+        """
+        return a + b
+    def add_numbers_2spaces(self, a, b):
+        """
+        Returns the sum of two numbers.
+
+        Parameters
+        ----------
+        a : int
+            First number
+        b : float
+          Second number
+
+        Returns
+        -------
+        sum : int
+            The sum of the inputs.
+        """
+        return a + b
+    def add_numbers_3spaces(self, a, b):
+        """
+        Returns the sum of two numbers.
+
+        Parameters
+        ----------
+        a : int
+            First number
+        b : float
+           Second number
+
+        Returns
+        -------
+        sum : int
+            The sum of the inputs.
+        """
+        return a + b
+    def add_numbers_4spaces(self, a, b):
+        """
+        Returns the sum of two numbers.
+
+        Parameters
+        ----------
+        a : int
+            First number
+        b : float
             Second number
 
         Returns
         -------
         sum : int
             The sum of the inputs.
-
-        Attributes
-        ----------
-        Some attribute : str
-            This is unnecessary and should not be included.
         """
         return a + b
-
     def add_numbers2(self, a, b):
         """Performs addition.
         
@@ -227,6 +289,23 @@ class Solution:
     def add_numbers5(self, a, b):
         """
         Adds two numbers.
+
+        Parameters
+        ----------
+        a : int
+            First number.
+        b : int
+            Second number.
+
+        Returns
+        -------
+        result
+            Sum of a and b.
+        """
+        return a + b
+    def add_numbers6(self, a, b):
+        """
+        See if this appears with a new branch
 
         Parameters
         ----------
