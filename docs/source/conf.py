@@ -20,12 +20,12 @@ release = '1'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',  # Required if you're not using numpydoc directly
-    # 'numpydoc',             # Required for proper numpydoc formatting
+    'numpydoc',             # Required for proper numpydoc formatting
 ]
 
 templates_path = ['_templates']
 exclude_patterns = []
-
+# napoleon_use_rtype = False
 
 
 # -- Options for HTML output -------------------------------------------------
