@@ -25,7 +25,7 @@ extensions = [
 
 templates_path = ['_templates']
 exclude_patterns = []
-# napoleon_use_rtype = False
+napoleon_use_rtype = False
 
 
 # -- Options for HTML output -------------------------------------------------
