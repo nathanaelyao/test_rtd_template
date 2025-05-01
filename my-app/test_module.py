@@ -4,7 +4,7 @@ class Solution:
     """
     A class to generate an array of n unique integers that sum up to 0.
     """
-    def concatenate_strings(self, s1: str, s2: str) -> str:
+    def concatenate_strings(self, s1, s2):
         """Concatenate two strings.
 
         Args:
