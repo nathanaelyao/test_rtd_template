@@ -180,7 +180,7 @@ class Solution:
         a : int
             First number
         b : float
-        Second number
+            Second number
 
         Returns
         -------
